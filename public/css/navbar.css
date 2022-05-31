@@ -1,0 +1,30 @@
+/* composent NavBar */
+header{ height: 100px; }
+.header__container{ background-color: #F6F2EA; height: 50px; padding: 0 50px;}
+.header__information{ display: flex; justify-content: flex-end; align-items: center; }
+
+.p__information, .a__connexion { margin-right: 50px; } 
+.p__inforormation{ width: 250px; }
+.a__information, .a__connexion {  height: 50px; display: flex; align-items: center; justify-content: center; text-decoration: none; }
+.a__information{width: 180px; background-color: #e38964;}
+.a__connexion{ width: 220px; }
+.div__userIcon{width: 10%; height: 100%; display: flex; align-items: center; justify-content: center;}
+.img__userIcon{width: 100%;}
+
+nav{ padding: 0 50px;}
+
+
+nav, .nav__ul{ height: 50px; }
+.nav__ul{ padding: 0; margin: 0; display: flex; align-items: center; justify-content: flex-end; }
+
+li{ width: 120px; text-align: center; letter-spacing: 1px; }
+li:nth-child(6){ width: 55px; }
+
+/* responsive design Navbar */
+@media screen and (max-width: 680px) {
+    .p__information{ width: 180px;}
+    .div__messageConnexion{ display: none; }
+    .a__connexion, .a__information{ margin-right: 0; width: 20%;}
+    .div__userIcon{width: 100%;}
+    .img__userIcon{width: 35px;}
+}
