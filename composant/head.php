@@ -14,17 +14,21 @@
             <div class="header__information">
                 <p class="p__information">Ville Tél: 00.00.00.00.00</p>
                 <a href="#" class="a__connexion">
-                    <div class="div__userIcon"><img src="public/icon/noun-user-856032.png" alt="" class="img__userIcon"></div>
+                    <div class="header__icon">
+                        <img class="header__img" src="public/icon/noun-user-856032.png" alt="">
+                    </div>
                     <div class="div__messageConnexion">Connexion / Inscription</div>
                 </a>
                 <a href="#" class="a__information">
-                    <div><img src="public/icon/noun-basket-2305474.png" alt=""></div>
-                    <div>Panier: 0.00€</div>    
+                    <div class="header__icon">
+                        <img class="header__img"src="public/icon/noun-basket-2305474.png" alt="">
+                    </div>
+                    <div class="header__divMessage">Panier: 0.00€</div>    
                 </a>
             </div>
         </div>
         
-        <nav>
+        <nav class="nav__top">
            <ul class="nav__ul">
                <li><a href="#">Accueil</a></li>
                <li><a href="#">Présentation</a></li>

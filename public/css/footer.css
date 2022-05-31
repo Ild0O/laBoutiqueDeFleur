@@ -1,0 +1,34 @@
+footer{
+    background-color: #313131;
+    display: flex;
+}
+
+.nav__left, .nav__right{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* .ul__bottom{
+    background-color: aquamarine;
+} */
+
+.li__bottom{
+    margin: 25px auto;
+    text-decoration: none;
+    color: white;
+}
+.a__bottom{
+    color: white;
+    text-decoration: none;
+}
+
+.context{
+    width: 30%;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
