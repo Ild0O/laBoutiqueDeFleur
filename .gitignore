@@ -3,4 +3,5 @@ model
 public/app
 icon
 img
+config
 .gitignore
