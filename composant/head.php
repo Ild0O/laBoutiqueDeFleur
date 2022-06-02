@@ -7,37 +7,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body class="index__container">
-
+<body class="container">
     <header>
-        <div class="header__container">
-            <div class="header__information">
-                <p class="p__information">Ville Tél: 00.00.00.00.00</p>
-                <a href="#" class="a__connexion">
-                    <div class="header__icon">
-                        <img class="header__img" src="public/icon/noun-user-856032.png" alt="">
+        <div class="header__div-container">
+                <p class="header__p-contact">Montpellier Tél: 00.00.00.00.00</p>
+                
+                <div class="header__div-burger">
+                    <button class="header__button-burger">X</button>
+                </div>
+                 <a href="#" class="header__a-connexion">
+                    <div class="a__div-icon">
+                        <img class="header__img-connexion" src="public/icon/noun-user-856032.png" alt="">
                     </div>
-                    <div class="div__messageConnexion">Connexion / Inscription</div>
+                    <div class="header__div-connexion">Connexion / Inscription</div>
                 </a>
-                <a href="#" class="a__information">
-                    <div class="header__icon">
-                        <img class="header__img"src="public/icon/noun-basket-2305474.png" alt="">
-                    </div>
-                    <div class="header__divMessage">Panier: 0.00€</div>    
-                </a>
-            </div>
-        </div>
-        
-        <nav class="nav__top">
-           <ul class="nav__ul">
-               <li><a href="#">Accueil</a></li>
-               <li><a href="#">Présentation</a></li>
-               <li><a href="#">Boutique</a></li>
-               <li><a href="#">Les services</a></li>
-               <li><a href="#">Contact</a></li>
-               <li><a href="#">Blog</a></li>
-           </ul> 
-        </nav>
-    </header>
 
-    <div class = "container">
+
+                <a href="#" class="header__a-panier">
+                    <div class="a__div-icon">
+                         <img class="header__img-panier"src="public/icon/noun-basket-2305474.png" alt=""> 
+                    </div>
+                    <div class="header__div-panier">Panier: 0.00€</div>    
+                </a>
+        </div>
+        <!-- composant__element-information -->
+        <nav class="header__nav-container">
+            <ul class="nav__ul-state">
+                <li class="header__nav-li"><a href="#" class="header__nav-a">Accueil</a></li>
+                <li class="header__nav-li"><a href="#" class="header__nav-a">Présentation</a></li>
+                <li class="header__nav-li"><a href="#" class="header__nav-a">Boutique</a></li>
+                <li class="header__nav-li"><a href="#" class="header__nav-a">Les services</a></li>
+                <li class="header__nav-li"><a href="#" class="header__nav-a">Contact</a></li>
+                <li class="header__nav-li"><a href="#" class="header__nav-a">Blog</a></li>
+            </ul> 
+        </nav>
+
+        <!-- <nav class="header__nav-mobile">
+            <ul class="nav__ul-state">
+                <li class="header__nav-li"><a href="#" class="header__nav-a">Accueil</a></li>
+                <li class="header__nav-li"><a href="#" class="header__nav-a">Présentation</a></li>
+                <li class="header__nav-li"><a href="#" class="header__nav-a">Boutique</a></li>
+                <li class="header__nav-li"><a href="#" class="header__nav-a">Les services</a></li>
+                <li class="header__nav-li"><a href="#" class="header__nav-a">Contact</a></li>
+                <li class="header__nav-li"><a href="#" class="header__nav-a">Blog</a></li>
+            </ul> 
+        </nav>     -->
+    </header>

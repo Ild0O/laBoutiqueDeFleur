@@ -1,75 +1,15 @@
 /* @import url('template.css'); */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('template.css');
 @import url('navbar.css');
+@import url('accueil.css');
 @import url('footer.css');
 
 html,
 body{ padding: 0; margin: 0; background-color: #FCF8EF; font-family: 'Open Sans', sans-serif; }
-.index__container{
-    display: grid;
-    grid-auto-rows: auto;
-}
-/* Composant Accueil */
-/* main{ height: 550px; } */
 
-.main__background{ height: 550px; background-image: url('../../public/img/flowerG.jpg'); background-size: cover; background-position: center; background-repeat: no-repeat; }
 
-.navbar__icon{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-}
 
-.li__icon{
-    width: 275px;
-    height: 275px;
-}
-
-.li__green{
-    padding: 15px;
-    box-sizing: border-box;
-    /* background-color: #40504D; */
-}
-/* .li__orange{
-    background: #e38964;
-} */
-
-.li__icon a {
-    display: block;
-    padding: 5px;
-}
-
-img{
-    width: 50%;
-    /* color: #e38964; */
-}
-
-ul li a p {
-    font-size: 1rem;
-}
-
-/* template */
-.container {
-    margin: 0 50px;
-}
-
-/* balises générals */
-ul{ padding: 0; margin: 0; }
-
-p{ margin: 0; }
-
-a{ color: #000; }
-
-li{
-    list-style-type: none;
-}
-
-h3{
-    margin: 0;
-    font-size: 1.3rem;
-}
 
 
 

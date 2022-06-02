@@ -1,32 +1,114 @@
-/* composent NavBar */
+/* composant Header et Nav */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
 
-.header__container{ background-color: #F6F2EA; height: 50px; padding: 0 50px;}
-.header__information{ display: flex; justify-content: flex-end; align-items: center; }
+.header__div-container, .header__nav-container {
+    height: 50px;
+    width: 100%;
+}
 
-.p__information, .a__connexion { margin-right: 50px; } 
-.a__information, .a__connexion {  height: 50px; display: flex; align-items: center; justify-content: center; text-decoration: none; }
-.a__information{width: 180px; background-color: #e38964;}
-.a__connexion{ width: 220px; }
-.header__icon{width: 10%; height: 100%; display: flex; align-items: center; justify-content: center;}
-.header__img{width: 100%;}
-.header__divMessage, .div__messageConnexion{ padding-left: 3px;}
+.header__div-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* composant contact */
+.header__p-contact{
+    width: 290px;
+}
+
+/* composant connexion */
+.header__a-connexion{
+    inline-size: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a__div-icon{
+    width: 25px;
+    height: 25px;
+}
+.header__img-connexion, .header__img-panier{
+    height: 25px;
+}
+
+/* composant panier */
+.header__a-panier{
+    inline-size: 150px;
+    background-color: #E38964;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 18px;
+}
+
+/* composant Nav */
+
+.nav__ul-state{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+}
+.header__nav-li{
+    padding: 0 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-a{
+    text-decoration: none;
+
+}
+
+/* composant mobil-button */
+.header__button-burger{
+    display: none;
+}
+
+/* action navbar media query */
+.header__nav-mobile{
+    display: none;
+}
+
+.header__nav-mobile{
+    display: flex;
+}
+
+.header__header-mobile{
+    height: 100vh;
+}
+
+.main__main-noMobil, .footer_footer-noMobil, .header__div-burger{
+    display: none;
+}
 
 
+/* media query */
+@media (max-width: 770px) {
+    .header__nav-container, 
+    .header__div-connexion,
+    .header__div-panier,
+    .header__p-contact{
+        display: none;
+    }  
 
-.nav__top{ padding: 0 50px;}
+    .header__div-burger{
+        width: calc(100% - 300px);
+        min-width: 50px;
+        display: flex;
+    }
 
-
-.nav__top, .nav__ul{ height: 50px; }
-.nav__ul{ padding: 0; margin: 0; display: flex; align-items: center; justify-content: flex-end; }
-
-li{ width: 120px; text-align: center; letter-spacing: 1px; }
-li:nth-child(6){ width: 55px; }
-
-/* responsive design Navbar */
-@media screen and (max-width: 680px) {
-    .p__information{ width: 180px;}
-    .div__messageConnexion{ display: none; }
-    .a__connexion, .a__information{ margin-right: 0; width: 20%;}
-    .div__userIcon{width: 100%;}
-    .img__userIcon{width: 35px;}
+    .header__button-burger{
+        width: 50px;
+        height: 50px;
+        display: block;
+        background-color: red;
+    }
 }
