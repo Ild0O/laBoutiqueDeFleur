@@ -1,1 +1,63 @@
 /* Composant Accueil */
+
+/* composant bannière */
+.section__bannier-img {
+    width: 70%;
+    min-width: 350px;
+    margin-bottom: 25px;
+}
+
+/* composant navbar icon */
+.main__navbar-icon{
+    min-width: 350px;
+    max-width: 1500px;
+    width: 70%;
+}
+
+.navbar__ul-icon{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    display: flex;
+}
+
+.ul__li-icon{
+    padding: 10px;
+    min-height: 173px;
+}
+
+.li__a-icon{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3, p{
+    margin: 0; 
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media (max-width: 1210px) {
+    .navbar__ul-icon{
+        justify-content: center;
+        flex-wrap: wrap;
+    }  
+}
+@media (max-width: 770px) {
+
+    .li__a-icon{
+        min-width: 350px;
+    }
+    .ul__li-icon{
+        width: auto;
+    }
+}
